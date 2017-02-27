@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/common/baseClass.py=UTF-8
+encoding//src/common/browserClass.py=UTF-8
+encoding//src/common/gettoken.py=UTF-8
+encoding//src/demotest/create.py=UTF-8
+encoding//src/demotest/sub.py=UTF-8
+encoding//src/demotest/subitems.py=UTF-8
+encoding//src/run/testdebug.py=UTF-8
+encoding//src/run/testrun.py=UTF-8
+encoding//src/testcase/accreditCase.py=UTF-8
+encoding//src/testcase/createorderCase.py=UTF-8
+encoding//src/testcase/dealorderCase.py=UTF-8
+encoding//src/testcase/itemsdownCase.py=UTF-8
+encoding//src/testcase/loginCase.py=UTF-8

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/common/baseinfo.py=UTF-8
+encoding//src/common/browserOperation.py=UTF-8
+encoding//src/demo/checkorder.py=UTF-8
+encoding//src/demo/compare.py=utf-8
+encoding//src/demo/createorder.py=UTF-8
+encoding//src/demo/debug.py=UTF-8
+encoding//src/demo/delivery.py=UTF-8
+encoding//src/demo/searchorder.py=UTF-8
+encoding//src/python27/order.py=UTF-8
+encoding//src/python27/ordercreateandcheck.py=UTF-8
+encoding//src/python27/ordersearch.py=UTF-8
+encoding//src/python27/runnertest.py=UTF-8
