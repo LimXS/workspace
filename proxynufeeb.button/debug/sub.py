@@ -309,7 +309,7 @@ if __name__ == "__main__":
 
     ######
     p7...............................
-    14:08 sub
+    14:08 sub 10
 
     #p99 = multiprocessing.Process(target = sendpro,args=(100,))
     #p99.start()
