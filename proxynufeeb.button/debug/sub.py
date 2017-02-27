@@ -307,6 +307,9 @@ if __name__ == "__main__":
     p6.start()
 
 
+    
+    p7 = multiprocessing.Process(target = sendpro,args=(7,))
+    p7.start()
 
     #p99 = multiprocessing.Process(target = sendpro,args=(100,))
     #p99.start()
