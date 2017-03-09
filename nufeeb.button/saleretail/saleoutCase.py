@@ -26,7 +26,7 @@ class saleoutTest(unittest.TestCase):
 
     def tearDown(self):
         print "test over"
-        #self.driver.close()
+        self.driver.close()
         pass
 
     def testsaleitemseriseOut(self):
@@ -39,6 +39,9 @@ class saleoutTest(unittest.TestCase):
         moduledetail=browser.xmlRead(dom,'moduledetail',2)
 
         browser.openModule2(self.driver,modulename,moduledetail)
+        browser.delaytime(2)
+        browser.know(self.driver)
+
 
         #页面id
         pageurl=browser.xmlRead(dom,"saleouturl",0)
