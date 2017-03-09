@@ -940,7 +940,7 @@ class browser(base):
         #-商品图片管理
         js="$(\"div:contains('商品图片管理')\").last().attr(\"id\",\"picmanid\")"
         self.excutejs(driver,js)
-        self.delaytime(1)
+        self.delaytime(2)
         self.findId(driver,"picmanid").click()
 
         #-售价管理
