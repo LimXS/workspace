@@ -3,7 +3,7 @@
     <location>
         <newsale>
             <filename>D:\screentestpic\</filename>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_1"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_0"]/td[3]</moduledetail>
             <newsaleurl>http://beefun.wsgjp.com/Beefun/Bill/SaleOrderBill.gspx?vchtype=saleorder</newsaleurl>
             <edBType>edBType</edBType>
             <edEType>edEType</edEType>
@@ -18,12 +18,12 @@
             <btnAddSuit>btnAddSuit</btnAddSuit>
         </newsale>
         <saleman>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_2"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_1"]/td[3]</moduledetail>
             <salemanurl>http://beefun.wsgjp.com/Beefun/Carrier/OrderManager.gspx?vchtype=saleorder</salemanurl>
         </saleman>
         <saleout>
             <module>//*[@id="$80d499b2$ManagerMenuBar4"]/div</module>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_3"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_2"]/td[3]</moduledetail>
             <saleouturl>http://beefun.wsgjp.com/Beefun/Bill/SaleBill.gspx</saleouturl>
             <edDept>edDept</edDept>
             <ShowFreight>ShowFreight</ShowFreight>
@@ -32,39 +32,39 @@
             <btnFreightPrint>btnFreightPrint</btnFreightPrint>
         </saleout>
         <salereturn>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_4"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_3"]/td[3]</moduledetail>
             <salereturnurl>http://beefun.wsgjp.com/Beefun/Bill/SaleBackBill.gspx</salereturnurl>
             <btnSaleBill>btnSaleBill</btnSaleBill>
         </salereturn>
         <saleexchange>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_5"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_4"]/td[3]</moduledetail>
             <saleexchurl>http://beefun.wsgjp.com/Beefun/Bill/SaleChangeBill.gspx</saleexchurl>
             <btnAddOutSuit>btnAddOutSuit</btnAddOutSuit>
         </saleexchange>
         <salepay>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_6"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_5"]/td[3]</moduledetail>
             <salepayurl>http://beefun.wsgjp.com/Beefun/Bill/GatheringBill.gspx</salepayurl>
         </salepay>
         <entrustsale>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_14"]/td[3]</moduledetail>
-            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_14_0"]/td[3]</moduledd>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_13"]/td[3]</moduledetail>
+            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_13_0"]/td[3]</moduledd>
             <ensalurl>http://beefun.wsgjp.com/Beefun/Bill/ConsignBill.gspx</ensalurl>
             <grid_assprice>grid_assprice</grid_assprice>
         </entrustsale>
         <enreturn>
-            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_14_1"]/td[3]</moduledd>
+            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_13_1"]/td[3]</moduledd>
             <enreurl>http://beefun.wsgjp.com/Beefun/Bill/ConsignBackBill.gspx</enreurl>
         </enreturn>
         <enacc>
-            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_14_2"]/td[3]</moduledd>
+            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_13_2"]/td[3]</moduledd>
             <enaccurl>http://beefun.wsgjp.com/Beefun/Bill/ConsignBalance.gspx</enaccurl>
         </enacc>
         <enstock>
-            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_14_3"]/td[3]</moduledd>
+            <moduledd>//*[@id="$80d499b2$ManagerMenuBar4_13_3"]/td[3]</moduledd>
             <enstockurl>http://beefun.wsgjp.com/Beefun/Report/CommissionStock.gspx?type=1</enstockurl>
         </enstock>
         <lsopen>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_7"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_6"]/td[3]</moduledetail>
             <lsopenurl>http://beefun.wsgjp.com/Beefun/Bill/Retail/RetailBill.gspx</lsopenurl>
             <btnSelectPType>btnSelectPType</btnSelectPType>
             <btnSelectPTypeSuit>btnSelectPTypeSuit</btnSelectPTypeSuit>
@@ -79,17 +79,17 @@
             <btnHotkeyConfig>btnHotkeyConfig</btnHotkeyConfig>
         </lsopen>
         <lsreutrn>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_8"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_7"]/td[3]</moduledetail>
             <lsreurl>http://beefun.wsgjp.com/Beefun/Bill/Retail/RetailBackBill.gspx</lsreurl>
         </lsreutrn>
         <salenotesel>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_13"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_12"]/td[3]</moduledetail>
         </salenotesel>
         <itempriceman>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_11"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_10"]/td[3]</moduledetail>
         </itempriceman>
         <sadistrace>
-            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_12"]/td[3]</moduledetail>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar4_11"]/td[3]</moduledetail>
         </sadistrace>
 
 

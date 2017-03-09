@@ -124,7 +124,7 @@ class stockmanageTest(unittest.TestCase):
             browser.openModule2(self.driver,self.modulename,self.moduledetail)
 
             #更多-删除
-            '''
+
             moredel=commid["basetype"]+self.pageid+browser.xmlRead(self.dom,"btnDel",0)+browser.xmlRead(self.dom,"moredetail",0)
             #print moredel
             browser.findId(self.driver,btnMore).click()
@@ -133,8 +133,8 @@ class stockmanageTest(unittest.TestCase):
             browser.findId(self.driver,btnMore).click()
             browser.findXpath(self.driver,moredel).click()
             browser.accAlert(self.driver,1)
-            time.sleep(1)
-            '''
+            browser.delaytime(1)
+
             #更多-复制为销售订单
             morecpsale=commid["basetype"]+self.pageid+browser.xmlRead(self.dom,"btnCopyOrder",0)+browser.xmlRead(self.dom,"moredetail",0)
             #print morecpsale

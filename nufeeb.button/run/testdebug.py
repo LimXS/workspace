@@ -150,9 +150,9 @@ suite = unittest.TestSuite()
 ##suite.addTest(stocknoteCase.stocknoteTest("teststockNote"))
 
 
-suite.addTest(newsaleorderCase.newsaleorderTest("testnewsaleOrder"))
-#suite.addTest(saleordermanCase.saleordermanTest("testnewsaleorderMan"))
-#suite.addTest(saleoutCase.saleoutTest("testsaleOut"))
+##suite.addTest(newsaleorderCase.newsaleorderTest("testnewsaleOrder"))
+##suite.addTest(saleordermanCase.saleordermanTest("testnewsaleorderMan"))
+suite.addTest(saleoutCase.saleoutTest("testsaleOut"))
 #suite.addTest(saleoutCase.saleoutTest("testsaleitemseriseOut"))
 #suite.addTest(salereturnCase.salereturnTest("testsaleReturn"))
 #suite.addTest(saleexchangeCase.saleexchangeTest("testsaleExchange"))

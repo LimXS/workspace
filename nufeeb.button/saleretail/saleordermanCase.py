@@ -26,7 +26,7 @@ class saleordermanTest(unittest.TestCase):
 
     def tearDown(self):
         print "test over"
-        self.driver.close()
+        #self.driver.close()
         pass
 
     def testnewsaleorderMan(self):
@@ -174,6 +174,7 @@ class saleordermanTest(unittest.TestCase):
             browser.exjscommin(self.driver,"保存")
             browser.delaytime(2,self.driver)
             browser.accAlert(self.driver,1)
+
 
             #-删除
             browser.exjscommin(self.driver,"更多")
