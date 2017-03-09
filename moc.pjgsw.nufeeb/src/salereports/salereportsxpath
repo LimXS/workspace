@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <location>
+        <discount>
+            <module>//*[@id="$80d499b2$ManagerMenuBar7"]/div</module>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar7_2"]/td[3]</moduledetail>
+            <moduledetail2>//*[@id="$80d499b2$ManagerMenuBar7_2_6"]/td[3]</moduledetail2>
+            <comfirm>//*[@id="$8439455f$btnEnsure"]</comfirm>
+        </discount>
+         <vipcharge>
+             <module>//*[@id="$80d499b2$ManagerMenuBar7"]/div</module>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar7_2"]/td[3]</moduledetail>
+            <moduledetail2>//*[@id="$80d499b2$ManagerMenuBar7_2_11"]/td[3]</moduledetail2>
+         </vipcharge>
+         <vipscore>
+             <module>//*[@id="$80d499b2$ManagerMenuBar7"]/div</module>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar7_2"]/td[3]</moduledetail>
+            <moduledetail2>//*[@id="$80d499b2$ManagerMenuBar7_2_10"]/td[3]</moduledetail2>
+         </vipscore>
+        <cashsalelog>
+             <module>//*[@id="$80d499b2$ManagerMenuBar7"]/div</module>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar7_2"]/td[3]</moduledetail>
+            <moduledetail2>//*[@id="$80d499b2$ManagerMenuBar7_2_13"]/td[3]</moduledetail2>
+         </cashsalelog>
+        <storecount>
+             <module>//*[@id="$80d499b2$ManagerMenuBar7"]/div</module>
+            <moduledetail>//*[@id="$80d499b2$ManagerMenuBar7_2"]/td[3]</moduledetail>
+            <moduledetail2>//*[@id="$80d499b2$ManagerMenuBar7_2_12"]/td[3]</moduledetail2>
+         </storecount>
+
+
+    </location>
+</data>

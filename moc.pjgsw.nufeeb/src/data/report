@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <location>
+        <report>
+            <module>.//*[@id='$80d499b2$ManagerMenuBar7']/div</module>
+            <getstock>.//*[@id='$80d499b2$ManagerMenuBar7_0']/td[3]</getstock>
+            <getstockreport>.//*[@id='$80d499b2$ManagerMenuBar7_0_0']/td[3]</getstockreport>
+            <closeinto>//*[@id='$6477ca13$btnCancel']</closeinto>
+            <okinto>//*[@id='$6477ca13$btnOk']</okinto>
+            <detail1>//*[@id="$73cdd015$grid"]/div[2]/table/tbody/tr[</detail1>
+            <detail2>]/td[2]</detail2>
+            <exitdetail>//*[@id='$b4543297$btnExit']</exitdetail>
+            <reportdetail1>//*[@id="$dce26211$grid"]/div[2]/table/tbody/tr[</reportdetail1>
+            <reportdetail2>]/td[2]</reportdetail2>
+        </report>
+        <returnreport>
+            <module>//*[@id="$80d499b2$ManagerMenuBar0"]/div</module>
+            <module>//*[@id="$80d499b2$ManagerMenuBar0_1"]/td[3]</module>
+
+        </returnreport>
+
+    </location>
+</data>
