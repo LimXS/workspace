@@ -26,7 +26,7 @@ class stockreturnTest(unittest.TestCase):
 
     def tearDown(self):
         print "test over"
-        #self.driver.close()
+        self.driver.close()
         pass
 
     def teststockReturn(self):
