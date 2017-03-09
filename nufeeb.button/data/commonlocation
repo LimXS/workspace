@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <location>
+            <commonlocation>
+                <module>//*[@id="$80d499b2$ManagerMenuBar0"]/div</module>
+                <filename>D:\screentestpic\</filename>
+                <basetype>//*[@id="</basetype>
+                <selclose>btnExit</selclose>
+                <btnClose>btnClose</btnClose>
+                <btnexit>btnCancel</btnexit>
+                <selok>btnEnsure</selok>
+                <refrdragt>btRefrsh"]/table/tbody/tr/td[1]/img</refrdragt>
+                <refresh>"]/table/tbody/tr/td[1]/img</refresh>
+                <typetopnext>grid_pager1_lastPage"]/div</typetopnext>
+                <typenext>grid_pager1_nextPage"]/div</typenext>
+                <typebe>grid_pager1_prevPage"]/div</typebe>
+                <typetopbe>grid_pager1_homePage"]/div</typetopbe>
+                <selnote>button1</selnote>
+                <btnok>btnOk</btnok>
+                <btnOK>btnOK</btnOK>
+                <seloppeo>edEType</seloppeo>
+                <selbtn>btnSelect</selbtn>
+                <selbtnall>btnSelectAll</selbtnall>
+                <button>button</button>
+                <btnDetail>btnDetail</btnDetail>
+                <btnAdd>btnAdd</btnAdd>
+                <btnSaveAdd>btnSaveAdd</btnSaveAdd>
+                <btnSaveClose>btnSaveClose</btnSaveClose>
+                <itname>grid_ptypecode</itname>
+                <addwhich>_button"]/table/tbody/tr/td[2]/div</addwhich>
+                <grid_pfullname>grid_pfullname</grid_pfullname>
+                <grid_assqty>grid_assqty</grid_assqty>
+                <grid_assdpprice>grid_assdpprice</grid_assdpprice>
+                <grid_kfullname>grid_kfullname</grid_kfullname>
+                <grid_ename>grid_ename</grid_ename>
+                <initempart>inGrid"]/div[2]/table/tbody/tr[1]/td[</initempart>
+                <outitempart>outGrid"]/div[2]/table/tbody/tr[1]/td[</outitempart>
+                <btnMore>btnMore</btnMore>
+                <grid_fullname>grid_fullname</grid_fullname>
+                <grid_total>grid_total</grid_total>
+                <btnSave>btnSave</btnSave>
+            </commonlocation>
+
+
+
+
+    </location>
+</data>
