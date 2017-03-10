@@ -50,10 +50,10 @@ class gatherstockTest(unittest.TestCase):
             starttime=pageid+browser.xmlRead(dom,"startime",0)
             browser.findId(self.driver,starttime).clear()
             browser.delaytime(1)
-            browser.findId(self.driver,starttime).send_keys("2017-01-01 00:00:00")
+            browser.findId(self.driver,starttime).send_keys("2017-03-01 00:00:00")
             endtime=pageid+browser.xmlRead(dom,"endtime",0)
             browser.findId(self.driver,endtime).clear()
-            browser.findId(self.driver,endtime).send_keys("2017-01-20 23:59:59")
+            browser.findId(self.driver,endtime).send_keys("2017-03-20 23:59:59")
             browser.know(self.driver)
             browser.exjscommin(self.driver,"今天")
 
@@ -106,6 +106,15 @@ class gatherstockTest(unittest.TestCase):
             browser.excutejs(self.driver,jsbill)
             js="$(\"td[class=MenuCaption]:contains('调拨单草稿')\").click()"
             browser.excutejs(self.driver,js)
+            browser.exjscommin(self.driver,"取消")
+            browser.excutejs(self.driver,jsbill)
+            js="$(\"td[class=MenuCaption]:contains('调拨单草稿')\").click()"
+            browser.excutejs(self.driver,js)
+
+
+            #请选择调拨出库仓库
+            browser.inputid(self.driver,"ddeKType","主仓库")
+            browser.exjscommin(self.driver,"继续")
             browser.exjscommin(self.driver,"确")
 
             #保存退出
