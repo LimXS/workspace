@@ -174,7 +174,7 @@ class browser(base):
         username="xsx"
         password="grasp147+"
         self.loginUser(driver,name ,user,pwd,login,loginname,username,password)
-        self.delaytime(1)
+        self.delaytime(3)
         self.exjscommin(driver,"关闭")
         self.exjscommin(driver,"确定")
 

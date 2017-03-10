@@ -53,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run/testdebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4679335" vertical-offset="4268" max-vertical-offset="5206">
-              <caret line="235" column="65" selection-start-line="235" selection-start-column="65" selection-end-line="235" selection-end-column="65" />
+            <state vertical-scroll-proportion="-9.733334" vertical-offset="4211" max-vertical-offset="5206">
+              <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/reports/test_instkothintoCase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1596">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -85,22 +85,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/browserClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5333333" vertical-offset="34007" max-vertical-offset="36081">
-              <caret line="1803" column="25" selection-start-line="1803" selection-start-column="25" selection-end-line="1803" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="3094" max-vertical-offset="36081">
+              <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
               <folding>
-                <marker date="1489130318384" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
-                <marker date="1489130318384" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
-                <marker date="1489130318384" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
-                <marker date="1489130318384" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
-                <marker date="1489130318384" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
-                <marker date="1489130318384" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
-                <marker date="1489130318384" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
-                <marker date="1489130318384" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
-                <marker date="1489130318384" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
-                <marker date="1489130318384" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
+                <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
+                <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
+                <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
+                <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
+                <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
+                <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
               </folding>
             </state>
           </provider>
@@ -153,7 +153,6 @@
         <option value="$PROJECT_DIR$/instock/transnoteCase.py" />
         <option value="$PROJECT_DIR$/instock/alarmupCase.py" />
         <option value="$PROJECT_DIR$/instock/alarmdownCase.py" />
-        <option value="$PROJECT_DIR$/common/browserClass.py" />
         <option value="$PROJECT_DIR$/reports/test_finbenfitCase.py" />
         <option value="$PROJECT_DIR$/reports/test_resaleprofitCase.py" />
         <option value="$PROJECT_DIR$/reports/test_comsalereturnCase.py" />
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/reports/test_inskinnerCase.py" />
         <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/reports/test_instkothintoCase.py" />
+        <option value="$PROJECT_DIR$/common/browserClass.py" />
       </list>
     </option>
   </component>
@@ -839,7 +839,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25555557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,25 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5333333" vertical-offset="34007" max-vertical-offset="36081">
-          <caret line="1803" column="25" selection-start-line="1803" selection-start-column="25" selection-end-line="1803" selection-end-column="25" />
-          <folding>
-            <marker date="1489130318384" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
-            <marker date="1489130318384" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
-            <marker date="1489130318384" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
-            <marker date="1489130318384" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
-            <marker date="1489130318384" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
-            <marker date="1489130318384" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
-            <marker date="1489130318384" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
-            <marker date="1489130318384" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
-            <marker date="1489130318384" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
-            <marker date="1489130318384" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/test_finbenfitCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5936073" vertical-offset="120" max-vertical-offset="2071">
@@ -1305,20 +1286,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/run/testdebug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.733334" vertical-offset="4211" max-vertical-offset="5206">
+          <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reports/test_instkothintoCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1596">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/testdebug.py">
+    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4679335" vertical-offset="4268" max-vertical-offset="5206">
-          <caret line="235" column="65" selection-start-line="235" selection-start-column="65" selection-end-line="235" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="3094" max-vertical-offset="36081">
+          <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
           <folding>
-            <element signature="e#23#33#0" expanded="true" />
+            <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
+            <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
+            <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
+            <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
+            <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
+            <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
           </folding>
         </state>
       </provider>
