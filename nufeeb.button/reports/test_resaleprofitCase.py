@@ -44,12 +44,16 @@ class resaleprofitTest(unittest.TestCase):
             browser.openModule3(self.driver,module,moduledetail,moduledd)
             browser.exjscommin(self.driver,"确定")
 
+
             #明细账本
             browser.exjscommin(self.driver,"明细账本")
             browser.exjscommin(self.driver,"查看单据")
             browser.exjscommin(self.driver,"退出")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.selectbycon(self.driver,"单据编号","XS")
             browser.exjscommin(self.driver,"退出")
+
 
             #查询条件
             browser.exjscommin(self.driver,"查询条件")

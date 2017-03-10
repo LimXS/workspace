@@ -40,6 +40,8 @@ class salenoteselTest(unittest.TestCase):
 
 
         browser.openModule2(self.driver,modulename,moduledetail)
+        browser.delaytime(2)
+        browser.know(self.driver)
 
 
         #commid,id

@@ -39,6 +39,9 @@ class finbenfitTest(unittest.TestCase):
         #pageid=browser.getalertid(pageurl,header)
 
         try:
+            #展示级数
+            browser.inputid(self.driver,"leveal","3")
+
             #明细账本
             browser.exjscommin(self.driver,"明细账本")
             browser.accAlert(self.driver,1)
@@ -51,8 +54,12 @@ class finbenfitTest(unittest.TestCase):
             browser.exjscommin(self.driver,"关闭")
             browser.exjscommin(self.driver,"明细账本")
             browser.exjscommin(self.driver,"确定")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"查看凭证")
             browser.exjscommin(self.driver,"退出")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.pagechoice(self.driver)
             browser.inputid(self.driver,"edOrder","按单据时间排序")
             browser.inputid(self.driver,"edRedwordFilter","不显示红冲单据")
@@ -79,8 +86,7 @@ class finbenfitTest(unittest.TestCase):
             #刷新
             browser.refreshbutton(self.driver)
 
-            #展示级数
-            browser.inputid(self.driver,"leveal","3")
+
 
 
             browser.exjscommin(self.driver,"退出")

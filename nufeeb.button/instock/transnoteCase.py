@@ -11,7 +11,7 @@ from common import browserClass
 browser=browserClass.browser()
 
 class transnoteTest(unittest.TestCase):
-    u'''库存-报溢单'''
+    u'''库存-调拨单'''
 
     def setUp(self):
         self.driver=browser.startBrowser('chrome')
@@ -182,7 +182,7 @@ class transnoteTest(unittest.TestCase):
             browser.itemnums(self.driver,qtyid)
 
             #单价
-            itprice=commid["basetype"]+pageid+itemgrid+str(24)+"]"
+            itprice=commid["basetype"]+pageid+itemgrid+str(27)+"]"
             browser.delaytime(1)
             browser.findXpath(self.driver,itprice).click()
 

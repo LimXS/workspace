@@ -39,6 +39,8 @@ class comsalereturnTest(unittest.TestCase):
             browser.exjscommin(self.driver,"明细账本")
             browser.exjscommin(self.driver,"查看单据")
             browser.exjscommin(self.driver,"退出")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.pagechoice(self.driver)
             browser.inputid(self.driver,"filterRed","不显示红冲数据")
             browser.selectbycon(self.driver,"单据编号","LS")

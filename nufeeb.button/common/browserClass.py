@@ -1801,6 +1801,7 @@ class browser(base):
             self.excutejs(driver,js)
             self.doubleclick(driver,id)
         tempid=self.getrandnumber(1)
+        self.delaytime(1)
         js="$(\"div:contains('"+divname+"')\").last().attr(\"id\",\"abc"+str(tempid[0])+"\")"
         self.delaytime(1)
         self.excutejs(driver,js)
