@@ -53,6 +53,7 @@ class salenoteselTest(unittest.TestCase):
             browser.openModule2(self.driver,modulename,moduledetail)
             browser.exjscommin(self.driver,"确定")
             browser.delaytime(2)
+            browser.know(self.driver)
 
             #查看单据
             browser.exjscommin(self.driver,"查看单据")
