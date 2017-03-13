@@ -43,6 +43,8 @@ class resalestorelsTest(unittest.TestCase):
             closejs="$(\"div[style*=closeButton]\").last().click()"
             #订单详情
             browser.exjscommin(self.driver,"订单详情")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.pagechoice(self.driver)
             browser.exjscommin(self.driver,"订单明细")
             browser.exjscommin(self.driver,"退出")
