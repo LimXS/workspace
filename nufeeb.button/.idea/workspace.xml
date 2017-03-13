@@ -34,7 +34,7 @@
     <SUITE FILE_PATH="coverage/nufeeb.button$getcookie.coverage" NAME="getcookie Coverage Results" MODIFIED="1482386527146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$loggingClass.coverage" NAME="loggingClass Coverage Results" MODIFIED="1482485339801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/nufeeb.button$Unittest_salereturnTest_testsaleReturn.coverage" NAME="Unittest salereturnTest.testsaleReturn Coverage Results" MODIFIED="1479091037543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/saleretail" />
-    <SUITE FILE_PATH="coverage/nufeeb.button$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1489387729133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/nufeeb.button$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1489389344947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/nufeeb.button$thread.coverage" NAME="thread Coverage Results" MODIFIED="1482827103446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$zipfile.coverage" NAME="zipfile Coverage Results" MODIFIED="1473236484026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/nufeeb.button$testrun.coverage" NAME="testrun Coverage Results" MODIFIED="1481785098953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
@@ -53,34 +53,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run/testdebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665" vertical-offset="2995" max-vertical-offset="5206">
-              <caret line="165" column="37" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.33254156" vertical-offset="2558" max-vertical-offset="5206">
+              <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="salenoteselCase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/saleretail/salenoteselCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8004435" vertical-offset="0" max-vertical-offset="2014">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seriesnotraceCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instock/seriesnotraceCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="2014">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -95,6 +75,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/browserClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="22103" max-vertical-offset="36081">
+              <caret line="904" column="8" selection-start-line="904" selection-start-column="8" selection-end-line="904" selection-end-column="8" />
+              <folding>
+                <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
+                <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
+                <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
+                <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
+                <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
+                <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
+                <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -105,7 +106,6 @@
         <option value="$PROJECT_DIR$/debug/co.py" />
         <option value="$PROJECT_DIR$/itemmodule/itemlocation" />
         <option value="$PROJECT_DIR$/itemmodule/itemcombineCase.py" />
-        <option value="$PROJECT_DIR$/stock/newstockordersCase.py" />
         <option value="$PROJECT_DIR$/stock/stockintocateCase.py" />
         <option value="$PROJECT_DIR$/stock/stockreturnCase.py" />
         <option value="$PROJECT_DIR$/stock/stockexchangeCase.py" />
@@ -113,7 +113,6 @@
         <option value="$PROJECT_DIR$/stock/stocknoteCase.py" />
         <option value="$PROJECT_DIR$/saleretail/salelocation" />
         <option value="$PROJECT_DIR$/saleretail/newsaleorderCase.py" />
-        <option value="$PROJECT_DIR$/stock/stockmanageCase.py" />
         <option value="$PROJECT_DIR$/saleretail/saleordermanCase.py" />
         <option value="$PROJECT_DIR$/saleretail/salereturnCase.py" />
         <option value="$PROJECT_DIR$/saleretail/saleexchangeCase.py" />
@@ -149,8 +148,10 @@
         <option value="$PROJECT_DIR$/instock/instockClass.py" />
         <option value="$PROJECT_DIR$/instock/stockgridCase.py" />
         <option value="$PROJECT_DIR$/instock/seriesnotraceCase.py" />
-        <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/saleretail/salenoteselCase.py" />
+        <option value="$PROJECT_DIR$/stock/newstockordersCase.py" />
+        <option value="$PROJECT_DIR$/stock/stockmanageCase.py" />
+        <option value="$PROJECT_DIR$/run/testdebug.py" />
       </list>
     </option>
   </component>
@@ -879,14 +880,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stock/newstockordersCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30365297" vertical-offset="1083" max-vertical-offset="12369">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock/stockcompareapi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
@@ -947,14 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21064301" vertical-offset="285" max-vertical-offset="3496">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51960784" vertical-offset="2106" max-vertical-offset="8683">
-          <caret line="129" column="40" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1239,25 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3094" max-vertical-offset="36081">
-          <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
-          <folding>
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..btype..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT btype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..employee..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT etype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..stock..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT ktype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT DATE,..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT ptype..bakdlyorder..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT vchco..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT UserC..ptype..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/instock/instockClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1919">
@@ -1274,29 +1240,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saleretail/salenoteselCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50554323" vertical-offset="0" max-vertical-offset="2014">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/newstockordersCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34703195" vertical-offset="798" max-vertical-offset="12369">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/instock/seriesnotraceCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="2014">
+        <state vertical-scroll-proportion="0.46341464" vertical-offset="171" max-vertical-offset="2014">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22103" max-vertical-offset="36081">
+          <caret line="904" column="8" selection-start-line="904" selection-start-column="8" selection-end-line="904" selection-end-column="8" />
+          <folding>
+            <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
+            <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
+            <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
+            <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
+            <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
+            <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60730594" vertical-offset="285" max-vertical-offset="8854">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run/testdebug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="2995" max-vertical-offset="5206">
-          <caret line="165" column="37" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.33254156" vertical-offset="2558" max-vertical-offset="5206">
+          <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saleretail/salenoteselCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8004435" vertical-offset="0" max-vertical-offset="2014">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>

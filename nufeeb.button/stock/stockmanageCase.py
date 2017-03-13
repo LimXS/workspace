@@ -67,6 +67,15 @@ class stockmanageTest(unittest.TestCase):
             browser.findId(self.driver,change).click()
             #browser.openModule2(self.driver,self.modulename,self.moduledetail)
             browser.exjscommin(self.driver,"退出")
+            browser.exjscommin(self.driver,"废弃退出")
+            change=self.pageid+browser.xmlRead(self.dom,"btnModify",0)
+            js="$(\"div[class=GridBodyCellText]:contains('001')\").first().attr(\"id\",\"p1\")"
+            browser.delaytime(1)
+            browser.excutejs(self.driver,js)
+            browser.findId(self.driver,"p1").click()
+            browser.findId(self.driver,change).click()
+            #browser.openModule2(self.driver,self.modulename,self.moduledetail)
+            browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"保存单据")
 
             #审核

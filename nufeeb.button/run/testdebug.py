@@ -163,7 +163,7 @@ suite = unittest.TestSuite()
 ##suite.addTest(entruststockselCase.entruststockselTest("testentruststockSel"))
 #suite.addTest(lsopenCase.lsopenTest("testlsOpen"))
 #suite.addTest(lsreturnCase.lsreturnTest("testlsReturn"))
-suite.addTest(salenoteselCase.salenoteselTest("testsalenoteSel"))
+##suite.addTest(salenoteselCase.salenoteselTest("testsalenoteSel"))
 #suite.addTest(itempricemanCase.itempricemanTest("testitempriceMan"))
 #suite.addTest(saledistraceCase.saledistraceTest("testsaledisTrace"))
 
