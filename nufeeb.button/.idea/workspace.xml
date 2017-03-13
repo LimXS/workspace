@@ -16,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/nufeeb.button$Unittests_in_C.coverage" NAME="Unittests in C Coverage Results" MODIFIED="1476846398505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$api.coverage" NAME="api Coverage Results" MODIFIED="1477040328931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
-    <SUITE FILE_PATH="coverage/nufeeb.button$jenkins.coverage" NAME="jenkins Coverage Results" MODIFIED="1474961567958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/nufeeb.button$jenkins.coverage" NAME="jenkins Coverage Results" MODIFIED="1489370089362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/nufeeb.button$Unittest_itemcombineTest_testitemCombine.coverage" NAME="Unittest itemcombineTest.testitemCombine Coverage Results" MODIFIED="1474614732865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/itemmodule" />
     <SUITE FILE_PATH="coverage/nufeeb.button$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1477040531240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$test.coverage" NAME="test Coverage Results" MODIFIED="1479374609575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
@@ -56,11 +56,21 @@
       <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run/testdebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.733334" vertical-offset="4211" max-vertical-offset="5206">
-              <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="3432" max-vertical-offset="5206">
+              <caret line="188" column="47" selection-start-line="188" selection-start-column="47" selection-end-line="188" selection-end-column="47" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seriesnotraceCase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/instock/seriesnotraceCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.9268293" vertical-offset="1273" max-vertical-offset="1995">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/browserClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="3094" max-vertical-offset="36081">
+            <state vertical-scroll-proportion="-4.5333333" vertical-offset="3094" max-vertical-offset="36081">
               <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
               <folding>
                 <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
@@ -102,6 +112,16 @@
                 <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
                 <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jenkins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run/jenkins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/saleretail/saledistraceCase.py" />
         <option value="$PROJECT_DIR$/finance/test_fixcapsetCase.py" />
         <option value="$PROJECT_DIR$/instock/getlessnoteCase.py" />
         <option value="$PROJECT_DIR$/saleretail/lsopenCase.py" />
@@ -169,9 +188,10 @@
         <option value="$PROJECT_DIR$/reports/test_instkmoreCase.py" />
         <option value="$PROJECT_DIR$/reports/test_inskothoutCase.py" />
         <option value="$PROJECT_DIR$/reports/test_inskinnerCase.py" />
-        <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/reports/test_instkothintoCase.py" />
         <option value="$PROJECT_DIR$/common/browserClass.py" />
+        <option value="$PROJECT_DIR$/run/testdebug.py" />
+        <option value="$PROJECT_DIR$/instock/seriesnotraceCase.py" />
       </list>
     </option>
   </component>
@@ -395,7 +415,7 @@
       <recent name="C:\workspace\nufeeb.button\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testdebug">
+  <component name="RunManager" selected="Python.jenkins">
     <configuration default="false" name="mysqlapi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,26 +430,6 @@
       <module name="nufeeb.button" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/mysqlapi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="loggingClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="nufeeb.button" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/loggingClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -497,6 +497,26 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="jenkins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="nufeeb.button" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run/jenkins.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -800,18 +820,18 @@
       <item index="3" class="java.lang.String" itemvalue="Python.getdata" />
       <item index="4" class="java.lang.String" itemvalue="Python.getcookie" />
       <item index="5" class="java.lang.String" itemvalue="Python.mysqlapi" />
-      <item index="6" class="java.lang.String" itemvalue="Python.loggingClass" />
-      <item index="7" class="java.lang.String" itemvalue="Python.thread" />
-      <item index="8" class="java.lang.String" itemvalue="Python.co" />
-      <item index="9" class="java.lang.String" itemvalue="Python tests.Unittests in stockstateCase" />
+      <item index="6" class="java.lang.String" itemvalue="Python.thread" />
+      <item index="7" class="java.lang.String" itemvalue="Python.co" />
+      <item index="8" class="java.lang.String" itemvalue="Python tests.Unittests in stockstateCase" />
+      <item index="9" class="java.lang.String" itemvalue="Python.jenkins" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.co" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in stockstateCase" />
-        <item index="2" class="java.lang.String" itemvalue="Python.thread" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mysqlapi" />
-        <item index="4" class="java.lang.String" itemvalue="Python.loggingClass" />
+        <item index="0" class="java.lang.String" itemvalue="Python.jenkins" />
+        <item index="1" class="java.lang.String" itemvalue="Python.co" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in stockstateCase" />
+        <item index="3" class="java.lang.String" itemvalue="Python.thread" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mysqlapi" />
       </list>
     </recent_temporary>
   </component>
@@ -900,14 +920,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frequentlyused/notecentralCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.98004436" vertical-offset="879" max-vertical-offset="3933">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itemmodule/itemlocation">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="2356">
@@ -1126,14 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instock/seriesnotraceCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1976">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/instock/transnoteCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.518847" vertical-offset="146" max-vertical-offset="4237">
@@ -1286,16 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run/testdebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.733334" vertical-offset="4211" max-vertical-offset="5206">
-          <caret line="237" column="43" selection-start-line="237" selection-start-column="43" selection-end-line="237" selection-end-column="43" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/test_instkothintoCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1596">
@@ -1306,7 +1300,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/browserClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3094" max-vertical-offset="36081">
+        <state vertical-scroll-proportion="-4.5333333" vertical-offset="3094" max-vertical-offset="36081">
           <caret line="176" column="24" selection-start-line="176" selection-start-column="24" selection-end-line="176" selection-end-column="24" />
           <folding>
             <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
@@ -1320,6 +1314,32 @@
             <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
             <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/jenkins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/testdebug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="3432" max-vertical-offset="5206">
+          <caret line="188" column="47" selection-start-line="188" selection-start-column="47" selection-end-line="188" selection-end-column="47" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instock/seriesnotraceCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9268293" vertical-offset="1273" max-vertical-offset="1995">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
