@@ -17,7 +17,7 @@ class combackmoneyTest(unittest.TestCase):
 
     def tearDown(self):
         print "test over"
-        self.driver.close()
+        #self.driver.close()
         pass
 
 
@@ -30,10 +30,12 @@ class combackmoneyTest(unittest.TestCase):
 
         browser.openModule3(self.driver,module,moduledetail,moduledd)
 
+
         try:
             browser.exjscommin(self.driver,"关闭")
             browser.openModule3(self.driver,module,moduledetail,moduledd)
             browser.exjscommin(self.driver,"确定")
+
 
             browser.elementcontains(self.driver,"div","网店客户","companyid")
             browser.findId(self.driver,"companyid").click()
@@ -45,6 +47,8 @@ class combackmoneyTest(unittest.TestCase):
             browser.exjscommin(self.driver,"明细账本")
             browser.exjscommin(self.driver,"确定")
             browser.exjscommin(self.driver,"查看凭证")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
             browser.pagechoice(self.driver)
             browser.exjscommin(self.driver,"退出")
@@ -54,13 +58,14 @@ class combackmoneyTest(unittest.TestCase):
             browser.exjscommin(self.driver,"回款明细账本")
             browser.exjscommin(self.driver,"关闭")
             browser.exjscommin(self.driver,"回款明细账本")
+
+            browser.exjscommin(self.driver,"查看凭证")
             browser.exjscommin(self.driver,"确定")
             browser.delaytime(2)
             browser.know(self.driver)
-            browser.exjscommin(self.driver,"查看凭证")
             browser.exjscommin(self.driver,"退出")
             browser.pagechoice(self.driver)
-            browser.exjscommin(self.driver,"退出")
+            #browser.exjscommin(self.driver,"退出")
 
             #翻页
             browser.pagechoice(self.driver)

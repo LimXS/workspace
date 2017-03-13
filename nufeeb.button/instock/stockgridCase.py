@@ -57,6 +57,7 @@ class stockgridTest(unittest.TestCase):
             browser.openModule2(self.driver,modulename,moduledetail)
             browser.exjscommin(self.driver,"确定")
 
+
             #翻页
             browser.delaytime(1,self.driver)
             browser.pagechoice(self.driver)

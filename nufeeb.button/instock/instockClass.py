@@ -60,6 +60,8 @@ class instockclass(browserClass.browser):
         self.exjscommin(driver,"确定")
         self.pagechoice(driver)
         self.exjscommin(driver,"查看单据")
+        self.delaytime(2)
+        self.know(driver)
         self.exjscommin(driver,"退出")
         self.exjscommin(driver,"退出")
         self.findId(driver,id).click()

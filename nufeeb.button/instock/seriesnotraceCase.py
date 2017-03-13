@@ -49,8 +49,7 @@ class seriesnotraceTest(unittest.TestCase):
             browser.openModule3(self.driver,modulename,moduledetail,moduledd)
             browser.exjscommin(self.driver,"确定")
             browser.exjscommin(self.driver,"确定")
-            browser.delaytime(2)
-            browser.know(self.driver)
+
 
 
             #查询条件
@@ -79,6 +78,8 @@ class seriesnotraceTest(unittest.TestCase):
 
             #查看单据
             browser.exjscommin(self.driver,"查看单据")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
 
             #翻页
