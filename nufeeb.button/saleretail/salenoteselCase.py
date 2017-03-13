@@ -40,8 +40,6 @@ class salenoteselTest(unittest.TestCase):
 
 
         browser.openModule2(self.driver,modulename,moduledetail)
-        browser.delaytime(2)
-        browser.know(self.driver)
 
 
         #commid,id
@@ -57,6 +55,8 @@ class salenoteselTest(unittest.TestCase):
 
             #查看单据
             browser.exjscommin(self.driver,"查看单据")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
 
             #修改开票金额
