@@ -55,6 +55,8 @@ class combackmoneyTest(unittest.TestCase):
             browser.exjscommin(self.driver,"关闭")
             browser.exjscommin(self.driver,"回款明细账本")
             browser.exjscommin(self.driver,"确定")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"查看凭证")
             browser.exjscommin(self.driver,"退出")
             browser.pagechoice(self.driver)
