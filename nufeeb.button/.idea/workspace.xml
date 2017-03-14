@@ -56,8 +56,8 @@
       <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run/testdebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665" vertical-offset="2900" max-vertical-offset="5206">
-              <caret line="160" column="41" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="4173" max-vertical-offset="5206">
+              <caret line="227" column="42" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -65,31 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entrustreturnCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/saleretail/entrustreturnCase.py">
+      <file leaf-file-name="test_resalestorelsCase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reports/test_resalestorelsCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2546">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockstateCase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frequentlyused/stockstateCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63192904" vertical-offset="1596" max-vertical-offset="6308">
-              <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="instockClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instock/instockClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1919">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.21064301" vertical-offset="285" max-vertical-offset="1520">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -160,7 +140,6 @@
         <option value="$PROJECT_DIR$/reports/test_inskinnerCase.py" />
         <option value="$PROJECT_DIR$/reports/test_instkothintoCase.py" />
         <option value="$PROJECT_DIR$/common/browserClass.py" />
-        <option value="$PROJECT_DIR$/reports/test_resalestorelsCase.py" />
         <option value="$PROJECT_DIR$/reports/test_combackmoneyCase.py" />
         <option value="$PROJECT_DIR$/instock/instockClass.py" />
         <option value="$PROJECT_DIR$/instock/stockgridCase.py" />
@@ -169,9 +148,10 @@
         <option value="$PROJECT_DIR$/stock/newstockordersCase.py" />
         <option value="$PROJECT_DIR$/stock/stockmanageCase.py" />
         <option value="$PROJECT_DIR$/finance/test_fixcapbuyCase.py" />
-        <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/saleretail/entrustreturnCase.py" />
         <option value="$PROJECT_DIR$/frequentlyused/stockstateCase.py" />
+        <option value="$PROJECT_DIR$/run/testdebug.py" />
+        <option value="$PROJECT_DIR$/reports/test_resalestorelsCase.py" />
       </list>
     </option>
   </component>
@@ -1196,14 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/test_resalestorelsCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42128602" vertical-offset="627" max-vertical-offset="1501">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run/sendmail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
@@ -1295,28 +1267,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frequentlyused/stockstateCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.128603" vertical-offset="0" max-vertical-offset="6308">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saleretail/entrustreturnCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37915742" vertical-offset="57" max-vertical-offset="2546">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run/testdebug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="2900" max-vertical-offset="5206">
-          <caret line="160" column="41" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="4173" max-vertical-offset="5206">
+          <caret line="227" column="42" selection-start-line="227" selection-start-column="42" selection-end-line="227" selection-end-column="42" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saleretail/entrustreturnCase.py">
+    <entry file="file://$PROJECT_DIR$/reports/test_resalestorelsCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2546">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frequentlyused/stockstateCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63192904" vertical-offset="1596" max-vertical-offset="6308">
-          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.21064301" vertical-offset="285" max-vertical-offset="1520">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding />
         </state>
       </provider>
