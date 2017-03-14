@@ -225,7 +225,7 @@ suite = unittest.TestSuite()
 #suite.addTest(test_resalelsitemCase.resalelsitemTest("test_resalelsItem"))
 #suite.addTest(test_resalemenberscoresCase.resalemenberscoreTest("test_resalemenberScores"))
 #suite.addTest(test_resalemenberchargeCase.resalemenberchargeTest("test_resalemenberCharge"))
-suite.addTest(test_resalestorelsCase.resalestorelsTest("test_resalestoreLs"))
+##suite.addTest(test_resalestorelsCase.resalestorelsTest("test_resalestoreLs"))
 #suite.addTest(test_resalepossaleCase.resalepossaleTest("test_resaleposSale"))
 #suite.addTest(test_resalepackageCase.resalepackageTest("test_resalePackage"))
 
