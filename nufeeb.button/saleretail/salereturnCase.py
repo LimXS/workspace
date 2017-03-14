@@ -129,6 +129,7 @@ class salereturnTest(unittest.TestCase):
             #原单退货
             saorid=pageid+browser.xmlRead(dom,"btnSaleBill",0)
             browser.findId(self.driver,saorid).click()
+            browser.delaytime(2)
             js="$(\"td[nowrap=true]:contains('查询')\").click()"
             browser.delaytime(1)
             browser.excutejs(self.driver,js)
