@@ -56,6 +56,8 @@ class finbalanceTest(unittest.TestCase):
             browser.exjscommin(self.driver,"选择")
             browser.exjscommin(self.driver,"确定")
             browser.exjscommin(self.driver,"查看凭证")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
             browser.pagechoice(self.driver)
             browser.inputid(self.driver,"edOrder","按单据时间排序")
