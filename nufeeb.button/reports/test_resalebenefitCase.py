@@ -46,6 +46,8 @@ class resalebenefitTest(unittest.TestCase):
 
             #查看单据
             browser.exjscommin(self.driver,"查看单据")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
 
             #成本明细

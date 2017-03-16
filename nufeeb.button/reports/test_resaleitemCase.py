@@ -51,6 +51,8 @@ class resaleitemTest(unittest.TestCase):
 
             browser.pagechoice(self.driver)
             browser.exjscommin(self.driver,"查看单据")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"退出")
 
@@ -65,6 +67,8 @@ class resaleitemTest(unittest.TestCase):
 
             browser.pagechoice(self.driver)
             browser.exjscommin(self.driver,"查看单据")
+            browser.delaytime(2)
+            browser.know(self.driver)
             browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"每月比较")
