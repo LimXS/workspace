@@ -53,7 +53,8 @@ class iteminfoTest(unittest.TestCase):
         selok=browser.xmlRead(dom,"selok",0)
         selbtn=browser.xmlRead(dom,"selbtn",0)
 
-
+        browser.delaytime(2)
+        browser.know(self.driver)
         try:
             #刷新
             browser.refreshbutton(self.driver)
