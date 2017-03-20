@@ -240,8 +240,14 @@ class iteminfoTest(unittest.TestCase):
            # print u"停用ok....."
 
             #往来单位商品编号设置
+            '''
             comcode=pageid+button+str(1)
             browser.findId(self.driver,comcode).click()
+            '''
+            js="$(\"button[id$=btnSetUserCode]\").attr(\"id\",\"companyid\")"
+            browser.delaytime(1)
+            browser.excutejs(self.driver,js)
+            comcode="companyid"
             browser.exjscommin(self.driver,"关闭")
             browser.findId(self.driver,comcode).click()
             js="$(\"input[id$=edBType]\").last().attr(\"id\",\"comid\")"

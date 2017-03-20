@@ -36,7 +36,7 @@
     <SUITE FILE_PATH="coverage/nufeeb.button$getcookie.coverage" NAME="getcookie Coverage Results" MODIFIED="1482386527146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$loggingClass.coverage" NAME="loggingClass Coverage Results" MODIFIED="1482485339801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/nufeeb.button$Unittest_salereturnTest_testsaleReturn.coverage" NAME="Unittest salereturnTest.testsaleReturn Coverage Results" MODIFIED="1479091037543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/saleretail" />
-    <SUITE FILE_PATH="coverage/nufeeb.button$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1489745075875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/nufeeb.button$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1489993929608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/nufeeb.button$thread.coverage" NAME="thread Coverage Results" MODIFIED="1489717069142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/nufeeb.button$zipfile.coverage" NAME="zipfile Coverage Results" MODIFIED="1473236484026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/nufeeb.button$testrun.coverage" NAME="testrun Coverage Results" MODIFIED="1481785098953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
@@ -58,8 +58,8 @@
       <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run/testdebug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335" vertical-offset="2405" max-vertical-offset="5206">
-              <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2405" max-vertical-offset="5206">
+              <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -67,34 +67,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proasseCase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/instock/proasseCase.py">
+      <file leaf-file-name="iteminfoCase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itemmodule/iteminfoCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7378641" vertical-offset="0" max-vertical-offset="4408">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.7378641" vertical-offset="0" max-vertical-offset="6118">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/browserClass.py">
+      <file leaf-file-name="itemlocation" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itemmodule/itemlocation">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3320" max-vertical-offset="36195">
-              <caret line="185" column="32" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
-              <folding>
-                <element signature="e#43#73#0" expanded="true" />
-                <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
-                <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
-                <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
-                <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
-                <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
-                <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
-                <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
-                <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
-                <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
-                <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2356">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proasseCase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/instock/proasseCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="4408">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +150,9 @@
         <option value="$PROJECT_DIR$/debug/co.py" />
         <option value="$PROJECT_DIR$/debug/fileapi.py" />
         <option value="$PROJECT_DIR$/saleretail/entrustsaleCase.py" />
+        <option value="$PROJECT_DIR$/instock/proasseCase.py" />
         <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/itemmodule/iteminfoCase.py" />
-        <option value="$PROJECT_DIR$/instock/proasseCase.py" />
       </list>
     </option>
   </component>
@@ -893,13 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reports/test_resaleprofitCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54323727" vertical-offset="135" max-vertical-offset="1824">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/test_comsalereturnCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.09534368" vertical-offset="1373" max-vertical-offset="1824">
@@ -1156,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5279" max-vertical-offset="6213">
           <caret line="308" column="24" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.037848607" vertical-offset="0" max-vertical-offset="589">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7009709" vertical-offset="684" max-vertical-offset="1425">
           <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6640777" vertical-offset="0" max-vertical-offset="931">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84232366" vertical-offset="569" max-vertical-offset="1292">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,9 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5836653" vertical-offset="296" max-vertical-offset="988">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26494023" vertical-offset="456" max-vertical-offset="4731">
           <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,14 +1210,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14757282" vertical-offset="0" max-vertical-offset="4237">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.007968128" vertical-offset="19099" max-vertical-offset="36195">
+          <caret line="1005" column="8" selection-start-line="1005" selection-start-column="8" selection-end-line="1005" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#73#0" expanded="true" />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..btype..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT btype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..employee..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT etype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT FullN..stock..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT ktype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT DATE,..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT ptype..bakdlyorder..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT vchco..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="-1:-1" placeholder="SELECT UserC..ptype..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instock/proasseCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4408">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemmodule/itemlocation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run/testdebug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="2405" max-vertical-offset="5206">
-          <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2405" max-vertical-offset="5206">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
@@ -1245,36 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/itemmodule/iteminfoCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8854369" vertical-offset="456" max-vertical-offset="6004">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3320" max-vertical-offset="36195">
-          <caret line="185" column="32" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
-          <folding>
-            <element signature="e#43#73#0" expanded="true" />
-            <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
-            <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
-            <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
-            <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
-            <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
-            <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instock/proasseCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378641" vertical-offset="0" max-vertical-offset="4408">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.7378641" vertical-offset="0" max-vertical-offset="6118">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
       </provider>
