@@ -339,6 +339,9 @@ class itempackagemanTest(unittest.TestCase):
             #-确认
             browser.findId(self.driver,editscon).click()
             browser.findXpath(self.driver,changeprint).click()
+            js="$(\"input[id$=isPrintList_radio0]\").click()"
+            browser.delaytime(1)
+            browser.excutejs(self.driver,js)
             browser.exjscommin(self.driver,"确认")
 
             '''
