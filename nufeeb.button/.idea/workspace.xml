@@ -70,8 +70,8 @@
       <file leaf-file-name="stockmanageCase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5169492" vertical-offset="7489" max-vertical-offset="9158">
-              <caret line="414" column="50" selection-start-line="414" selection-start-column="50" selection-end-line="414" selection-end-column="50" />
+            <state vertical-scroll-proportion="-2.1800847" vertical-offset="8477" max-vertical-offset="9348">
+              <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
       <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/browserClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34850" max-vertical-offset="36081">
-              <caret line="1857" column="132" selection-start-line="1857" selection-start-column="14" selection-end-line="1857" selection-end-column="132" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="35192" max-vertical-offset="36081">
+              <caret line="1872" column="33" selection-start-line="1872" selection-start-column="33" selection-end-line="1872" selection-end-column="33" />
               <folding>
                 <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
                 <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
@@ -1292,33 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/stockcompareapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34850" max-vertical-offset="36081">
-          <caret line="1857" column="132" selection-start-line="1857" selection-start-column="14" selection-end-line="1857" selection-end-column="132" />
-          <folding>
-            <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
-            <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
-            <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
-            <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
-            <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
-            <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
-            <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/temp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
@@ -1337,10 +1310,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stock/stockcompareapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/browserClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35192" max-vertical-offset="36081">
+          <caret line="1872" column="33" selection-start-line="1872" selection-start-column="33" selection-end-line="1872" selection-end-column="33" />
+          <folding>
+            <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
+            <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59760:59885" placeholder="SELECT FullN..employee..." />
+            <marker date="1489143362753" expanded="true" signature="59800:59884" placeholder="SELECT etype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="59937:60059" placeholder="SELECT FullN..stock..." />
+            <marker date="1489143362753" expanded="true" signature="59974:60058" placeholder="SELECT ktype..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="60252:60408" placeholder="SELECT DATE,..." />
+            <marker date="1489143362753" expanded="true" signature="60691:60955" placeholder="SELECT ptype..bakdlyorder..." />
+            <marker date="1489143362753" expanded="true" signature="60871:60954" placeholder="SELECT vchco..dlyndxOrder..." />
+            <marker date="1489143362753" expanded="true" signature="61088:61164" placeholder="SELECT UserC..ptype..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5169492" vertical-offset="7489" max-vertical-offset="9158">
-          <caret line="414" column="50" selection-start-line="414" selection-start-column="50" selection-end-line="414" selection-end-column="50" />
+        <state vertical-scroll-proportion="-2.1800847" vertical-offset="8477" max-vertical-offset="9348">
+          <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
           <folding />
         </state>
       </provider>

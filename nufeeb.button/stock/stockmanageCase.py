@@ -398,6 +398,16 @@ class stockmanageTest(unittest.TestCase):
 
 
             for itemde in itemdatas:
+                flag=0
+                for myit in orderitems:
+                    if myit[0]==itemde["ptypecode"]:
+                        myitem=myit
+                        flag=1
+                        break
+                if flag!=1:
+                    print u"进货-进货订单管理-数据和页面商品信息不吻合，有遗漏"
+                    break
+
                 #商品编号
                 comapi.commonfun(caseassert,itemde["ptypecode"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
@@ -420,36 +430,36 @@ class stockmanageTest(unittest.TestCase):
                 #商品总重量
 
                 #数量
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["qty"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #单价
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["tpprice"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #金额
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["tptotal"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #状态
 
                 #备注
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #未完成数量
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["untoqty"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #完成数量
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["toqty"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #补订数量
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["repairqty"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #未完成金额
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["untototal"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #完成金额
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["tototal"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
                 #补订金额
-                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+                comapi.commonfun(caseassert,itemde["repairtotal"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
 
             self.success=1
