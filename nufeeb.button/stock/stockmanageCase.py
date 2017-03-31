@@ -267,7 +267,7 @@ class stockmanageTest(unittest.TestCase):
             browser.delaytime(1)
             browser.getpicture(self.driver,filename+u"进货-进货订单管理.png")
 
-    def testassertskmanagebeforecheck(self):
+    def testyskmanagebeforecheckassert(self):
         u'''进货-进货订单管理-审核之前-数据断言'''
         try :
             f=open(r'C:\\workspace\\nufeeb.button\\data\\temp','r')
