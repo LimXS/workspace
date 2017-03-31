@@ -267,8 +267,8 @@ class stockmanageTest(unittest.TestCase):
             browser.delaytime(1)
             browser.getpicture(self.driver,filename+u"进货-进货订单管理.png")
 
-    def assertskmanagebeforecheck(self):
-        u'''进货-进货订单管理-审核之前'''
+    def testassertskmanagebeforecheck(self):
+        u'''进货-进货订单管理-审核之前-数据断言'''
         try :
             f=open(r'C:\\workspace\\nufeeb.button\\data\\temp','r')
             number=str(f.read())
@@ -461,6 +461,7 @@ class stockmanageTest(unittest.TestCase):
                         flag=1
                         break
                 if flag!=1:
+                    loggingClass.addlogmes("info","stockmanageTest-test_assertskmanagebeforecheck-",u"进货-进货订单管理-数据和页面商品信息不吻合，有遗漏,订单号为:"+itemde[0])
                     print u"进货-进货订单管理-数据和页面商品信息不吻合，有遗漏"
                     print u'订单号为:'+itemde[0]
                     break
@@ -496,11 +497,12 @@ class stockmanageTest(unittest.TestCase):
             print traceback.format_exc()
             self.success=0
             filename=browser.xmlRead(self.comdom,'filename',0)
+            loggingClass.addlogmes("info","stockmanageTest-test_assertskmanagebeforecheck-",u"进货-进货订单管理-审核前断言失败"+traceback.format_exc())
             browser.delaytime(1)
             browser.getpicture(self.driver,filename+u"断言进货-进货订单管理-审核之前.png")
 
     def assertskmanageaftercheck(self):
-        u'''进货-进货订单管理-审核之后'''
+        u'''进货-进货订单管理-审核之后-数据断言'''
         try:
             if self.success==0:
                 loggingClass.addlogmes("info","stockmanageTest-test_assertskmanagebeforecheck-",u"进货-进货订单管理-审核失败，随便选一个已审核的数据")
