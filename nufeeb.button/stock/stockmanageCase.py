@@ -378,7 +378,11 @@ class stockmanageTest(unittest.TestCase):
             #业务审核人
             comapi.commonfun(caseassert,pageorder["business_auditorname"],str(''),u"进货-进货订单管理-订单头-业务审核人验证失败")
             #审核时间
-            comapi.commonfun(caseassert,pageorder["comment"],str(''),u"进货-进货订单管理-订单头-审核时间验证失败")
+            if pageorder["finance_audittime"]=='false':
+                comtime=''
+            else:
+                comtime=pageorder["finance_audittime"]
+            comapi.commonfun(caseassert,comtime,str(''),u"进货-进货订单管理-订单头-审核时间验证失败")
             #审核说明
             comapi.commonfun(caseassert,pageorder["default_auditremark"],str(''),u"进货-进货订单管理-订单头-审核说明验证失败")
             #创建类型
