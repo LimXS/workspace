@@ -58,3 +58,4 @@ cur = conn.cursor()
 sqlreault=cur.execute("SELECT UserCode,FullName,Unit1,recPrice1,NAME FROM ptype WHERE id='869585272784951'")
 data = cur.fetchone()
 print data
+print len(data)

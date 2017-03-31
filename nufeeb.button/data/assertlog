@@ -67,3 +67,8 @@
 2017-03-31 16:18:56,213  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-日期和数据库不一致;page:1490889600000;mysql:2017-03-31
 2017-03-31 16:18:56,216  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-交货日期和数据库不一致;page:1490889600000;mysql:2017-03-31
 2017-03-31 16:18:56,217  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-审核时间验证失败;page:fjsm;mysql:
+2017-03-31 16:35:01,273  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-日期和数据库不一致;page:1490889600000;mysql:2017-03-31
+2017-03-31 16:35:01,273  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-交货日期和数据库不一致;page:1490889600000;mysql:2017-03-31
+2017-03-31 16:35:01,275  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-审核时间验证失败;page:fjsm;mysql:
+2017-03-31 16:45:18,369  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-审核时间验证失败;page:fjsm;mysql:
+2017-03-31 16:45:18,372  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-折前金额与商品明细不合;page:40.8;mysql:40.80

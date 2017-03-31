@@ -352,7 +352,7 @@ class stockmanageTest(unittest.TestCase):
                 ischeck=100
             comapi.commonfun(caseassert,ischeck,orderdatas[9],u"进货-进货订单管理-订单头-是否审核和数据库不一致")
             #日期
-            comapi.commonfun(caseassert,pageorder["date"],orderdatas[3],u"进货-进货订单管理-订单头-日期和数据库不一致")
+            comapi.commonfun(caseassert,browser.handlestamp(pageorder["date"]),orderdatas[3],u"进货-进货订单管理-订单头-日期和数据库不一致")
             #订单编号
             comapi.commonfun(caseassert,pageorder["number"],orderdatas[11],u"进货-进货订单管理-订单头-订单编号和数据库不一致")
             #往来单位
@@ -362,10 +362,7 @@ class stockmanageTest(unittest.TestCase):
             #经手人
             comapi.commonfun(caseassert,pageorder["ename"],orderdatas[1],u"进货-进货订单管理-订单头-经手人和数据库不一致")
             #交货日期
-            comapi.commonfun(caseassert,pageorder["todate"],orderdatas[6],u"进货-进货订单管理-订单头-交货日期和数据库不一致")
-            #折前金额
-
-            #金额
+            comapi.commonfun(caseassert,browser.handlestamp(pageorder["todate"]),orderdatas[6],u"进货-进货订单管理-订单头-交货日期和数据库不一致")
 
             #税后金额
             comapi.commonfun(caseassert,str("%.4f"%pageorder["total"]),str(orderdatas[12]),u"进货-进货订单管理-订单头-税后金额和数据库不一致")
@@ -391,11 +388,15 @@ class stockmanageTest(unittest.TestCase):
             huntoqty=0
             htomoney=0
             hunmoney=0
+            dpmytotal=0
+            mytotal=0
             for itemde in itemdatas:
                 flag=0
 
                 for myit in orderitems:
                     if myit[0]==itemde["ptypecode"]:
+                        dpmytotal+=myit[7]
+                        mytotal+=myit[10]
                         #商品编号
                         #comapi.commonfun(caseassert,itemde["ptypecode"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
@@ -460,8 +461,15 @@ class stockmanageTest(unittest.TestCase):
                     print u'订单号为:'+itemde[0]
                     break
 
+
+            #折前金额
+            comapi.commonfun(caseassert,"%.2f"%pageorder["dptotal"],str("%.2f"%dpmytotal),u"进货-进货订单管理-订单头-折前金额与商品明细不合")
+
+            #金额
+            comapi.commonfun(caseassert,pageorder["tptotal"],str("%.2f"%mytotal),u"进货-进货订单管理-订单头-完成数量与商品明细不合")
+
             #完成数量
-            comapi.commonfun(caseassert,pageorder["toqty"],str("%.1f"%htoqty),u"进货-进货订单管理-订单头-完成数量与商品明细不合")
+            comapi.commonfun(caseassert,pageorder["toqty"],str("%.1f"%htoqty),u"进货-进货订单管理-订单头-金额与商品明细不合")
 
             #未完成数量
             comapi.commonfun(caseassert,pageorder["untoqty"],str("%.1f"%huntoqty),u"进货-进货订单管理-订单头-未完成数量与商品明细不合")
