@@ -261,8 +261,6 @@ class stockmanageTest(unittest.TestCase):
             browser.findId(self.driver,pageexit).click()
             browser.openModule2(self.driver,self.modulename,self.moduledetail)
 
-
-
         except:
             print traceback.format_exc()
             filename=browser.xmlRead(self.dom,'filename',0)
@@ -301,6 +299,7 @@ class stockmanageTest(unittest.TestCase):
                 print "pageorder...."
                 print pageorder
             else:
+                browser.delaytime(1)
                 js="$(\"div:contains('"+number+"')\").last().attr(\"id\",\"manid\")"
                 browser.delaytime(1)
                 browser.excutejs(self.driver,js)
@@ -369,10 +368,11 @@ class stockmanageTest(unittest.TestCase):
             #金额
 
             #税后金额
-            comapi.commonfun(caseassert,pageorder["total"],orderdatas[12],u"进货-进货订单管理-订单头-税后金额和数据库不一致")
+            comapi.commonfun(caseassert,str("%.4f"%pageorder["total"]),str(orderdatas[12]),u"进货-进货订单管理-订单头-税后金额和数据库不一致")
             #已付订金金额
 
             #附加说明
+            comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-订单头-附加说明和数据库不一致")
 
             #完成数量
 
@@ -397,43 +397,59 @@ class stockmanageTest(unittest.TestCase):
             #创建类型
 
 
-            #商品编号
+            for itemde in itemdatas:
+                #商品编号
+                comapi.commonfun(caseassert,itemde["ptypecode"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #商品名称
+                #商品名称
+                comapi.commonfun(caseassert,itemde["pfullname"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #商品简名
+                #商品简名
+                comapi.commonfun(caseassert,itemde["pname"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #规格
+                #规格
 
-            #型号
+                #型号
 
-            #单位
+                #单位
+                comapi.commonfun(caseassert,itemde["ptypeunit"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #商品重量
+                #商品重量
 
-            #商品总重量
 
-            #数量
+                #商品总重量
 
-            #单价
+                #数量
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #金额
+                #单价
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #状态
+                #金额
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #备注
+                #状态
 
-            #未完成数量
+                #备注
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #完成数量
+                #未完成数量
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #补订数量
+                #完成数量
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #未完成金额
+                #补订数量
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #完成金额
+                #未完成金额
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
-            #补订金额
+                #完成金额
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
+
+                #补订金额
+                comapi.commonfun(caseassert,pageorder["comment"],str(orderdatas[5]),u"进货-进货订单管理-商品明细-商品编号和数据库不一致")
 
 
             self.success=1
