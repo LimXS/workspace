@@ -70,18 +70,8 @@
       <file leaf-file-name="stockmanageCase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1800847" vertical-offset="8477" max-vertical-offset="9348">
-              <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockcompareapi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock/stockcompareapi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.8792373" vertical-offset="6995" max-vertical-offset="9386">
+              <caret line="397" column="78" selection-start-line="397" selection-start-column="78" selection-end-line="397" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -90,8 +80,8 @@
       <file leaf-file-name="browserClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/browserClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="35192" max-vertical-offset="36081">
-              <caret line="1872" column="33" selection-start-line="1872" selection-start-column="33" selection-end-line="1872" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="35306" max-vertical-offset="36081">
+              <caret line="1871" column="121" selection-start-line="1871" selection-start-column="121" selection-end-line="1871" selection-end-column="121" />
               <folding>
                 <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
                 <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
@@ -156,7 +146,6 @@
         <option value="$PROJECT_DIR$/reports/test_instkmoreCase.py" />
         <option value="$PROJECT_DIR$/reports/test_inskothoutCase.py" />
         <option value="$PROJECT_DIR$/reports/test_inskinnerCase.py" />
-        <option value="$PROJECT_DIR$/common/browserClass.py" />
         <option value="$PROJECT_DIR$/instock/seriesnotraceCase.py" />
         <option value="$PROJECT_DIR$/saleretail/salenoteselCase.py" />
         <option value="$PROJECT_DIR$/stock/newstockordersCase.py" />
@@ -183,6 +172,7 @@
         <option value="$PROJECT_DIR$/itemmodule/itempackagemanCase.py" />
         <option value="$PROJECT_DIR$/run/testdebug.py" />
         <option value="$PROJECT_DIR$/data/temp" />
+        <option value="$PROJECT_DIR$/common/browserClass.py" />
         <option value="$PROJECT_DIR$/stock/stockmanageCase.py" />
       </list>
     </option>
@@ -1276,26 +1266,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/baseClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7409" max-vertical-offset="8132">
-          <caret line="409" column="34" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itemmodule/itempackagemanCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.998591" vertical-offset="7878" max-vertical-offset="8588">
           <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1312,16 +1286,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stock/stockcompareapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+        <state vertical-scroll-proportion="0.5533981" vertical-offset="0" max-vertical-offset="515">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/baseClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7409" max-vertical-offset="8132">
+          <caret line="409" column="34" selection-start-line="409" selection-start-column="34" selection-end-line="409" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/temp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/browserClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="35192" max-vertical-offset="36081">
-          <caret line="1872" column="33" selection-start-line="1872" selection-start-column="33" selection-end-line="1872" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="35306" max-vertical-offset="36081">
+          <caret line="1871" column="121" selection-start-line="1871" selection-start-column="121" selection-end-line="1871" selection-end-column="121" />
           <folding>
             <marker date="1489143362753" expanded="true" signature="59585:59707" placeholder="SELECT FullN..btype..." />
             <marker date="1489143362753" expanded="true" signature="59622:59706" placeholder="SELECT btype..dlyndxOrder..." />
@@ -1339,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stock/stockmanageCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1800847" vertical-offset="8477" max-vertical-offset="9348">
-          <caret line="399" column="12" selection-start-line="399" selection-start-column="12" selection-end-line="399" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.8792373" vertical-offset="6995" max-vertical-offset="9386">
+          <caret line="397" column="78" selection-start-line="397" selection-start-column="78" selection-end-line="397" selection-end-column="78" />
           <folding />
         </state>
       </provider>
