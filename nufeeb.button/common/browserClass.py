@@ -1877,14 +1877,14 @@ class browser(base):
         data=cur.fetchmany(res)
         for k in data:
             temp=[]
-            sql="SELECT UserCode,FullName,Unit1,recPrice1 FROM ptype WHERE id='"+str(k[0])+"'"
+            sql="SELECT UserCode,FullName,Unit1,recPrice1,Name FROM ptype WHERE id='"+str(k[0])+"'"
             cur.execute(sql)
             itheader=cur.fetchone()
             for n in itheader:
                 temp.append(n)
             for m in k:
                 temp.append(m)
-            del temp[4]
+            del temp[5]
             datas.append(temp)
         return datas
 

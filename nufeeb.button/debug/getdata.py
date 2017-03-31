@@ -46,3 +46,15 @@ print n.next()
 print n.send(20)
 print n.next()
 '''
+
+#*-* coding:UTF-8 *-*
+import  MySQLdb
+from common import browserClass
+from common import loggingClass
+browser=browserClass.browser()
+a=[]
+conn= MySQLdb.connect(host='172.16.0.96',user='website',passwd='test@2011',db='beefun',port = 4306)
+cur = conn.cursor()
+sqlreault=cur.execute("SELECT UserCode,FullName,Unit1,recPrice1,NAME FROM ptype WHERE id='869585272784951'")
+data = cur.fetchone()
+print data
