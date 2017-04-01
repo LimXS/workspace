@@ -332,7 +332,6 @@ class stockmanageTest(unittest.TestCase):
             print itemdatas
             #print itemdatas[0]["pfullname"]
 
-
             #数据库数据
             orderdatas=browser.getmysqldlyndxOrder(number,pageorder["summary"])
             orderitems=browser.getmysqlitems(number,pageorder["summary"])
@@ -492,6 +491,7 @@ class stockmanageTest(unittest.TestCase):
             #comapi.commonfun(caseassert,pageorder["business_auditorname"],str(orderdatas[5]),u"进货-进货订单管理-订单头-业务审核人验证失败")
 
             self.success=1
+
 
         except:
             print traceback.format_exc()
