@@ -73,3 +73,24 @@
 2017-03-31 16:45:18,369  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-审核时间验证失败;page:fjsm;mysql:
 2017-03-31 16:45:18,372  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-折前金额与商品明细不合;page:40.8;mysql:40.80
 2017-03-31 16:46:07,111  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170331-020 - INFO - 进货-进货订单管理-订单头-审核时间验证失败;page:fjsm;mysql:
+2017-04-05 10:42:55,108  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核前断言失败Traceback (most recent call last):
+  File "C:\workspace\nufeeb.button\stock\stockmanageCase.py", line 336, in testyskmanagebeforecheckassert
+    orderdatas=browser.getmysqldlyndxOrder(number,pageorder["summary"])
+  File "C:\workspace\nufeeb.button\common\browserClass.py", line 1853, in getmysqldlyndxOrder
+    cur.execute(sql)
+  File "D:\Python27\lib\site-packages\MySQLdb\cursors.py", line 157, in execute
+    query = query.encode(charset)
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 115-119: ordinal not in range(256)
+
+2017-04-05 10:44:41,131  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核前断言失败Traceback (most recent call last):
+  File "C:\workspace\nufeeb.button\stock\stockmanageCase.py", line 336, in testyskmanagebeforecheckassert
+    orderdatas=browser.getmysqldlyndxOrder(number,pageorder["summary"])
+  File "C:\workspace\nufeeb.button\common\browserClass.py", line 1853, in getmysqldlyndxOrder
+    cur.execute(sql)
+  File "D:\Python27\lib\site-packages\MySQLdb\cursors.py", line 157, in execute
+    query = query.encode(charset)
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 115-119: ordinal not in range(256)
+
+2017-04-05 10:46:25,229  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170405-004 - INFO - 进货-进货订单管理-商品明细-单价和数据库不一致;page:13.6;mysql:13.60
+2017-04-05 10:46:25,230  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170405-004 - INFO - 进货-进货订单管理-商品明细-金额和数据库不一致;page:13.6;mysql:13.60
+2017-04-05 10:46:25,232  - stockmanageTest-test_assertskmanagebeforecheck-JHD-20170405-004 - INFO - 进货-进货订单管理-订单头-完成数量与商品明细不合;page:13.6;mysql:13.60

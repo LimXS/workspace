@@ -425,10 +425,10 @@ class stockmanageTest(unittest.TestCase):
                         comapi.commonfun(caseassert,str("%.2f"%itemde["qty"]),str("%.2f"%myit[17]),u"进货-进货订单管理-商品明细-数量和数据库不一致")
 
                         #单价
-                        comapi.commonfun(caseassert,itemde["tpprice"],str("%.2f"%myit[9]),u"进货-进货订单管理-商品明细-单价和数据库不一致")
+                        comapi.commonfun(caseassert,"%.2f"%itemde["tpprice"],str("%.2f"%myit[9]),u"进货-进货订单管理-商品明细-单价和数据库不一致")
 
                         #金额
-                        comapi.commonfun(caseassert,itemde["tptotal"],str("%.2f"%myit[10]),u"进货-进货订单管理-商品明细-金额和数据库不一致")
+                        comapi.commonfun(caseassert,"%.2f"%itemde["tptotal"],str("%.2f"%myit[10]),u"进货-进货订单管理-商品明细-金额和数据库不一致")
 
                         #状态
 
@@ -470,13 +470,13 @@ class stockmanageTest(unittest.TestCase):
             comapi.commonfun(caseassert,"%.2f"%pageorder["dptotal"],str("%.2f"%dpmytotal),u"进货-进货订单管理-订单头-折前金额与商品明细不合")
 
             #金额
-            comapi.commonfun(caseassert,pageorder["tptotal"],str("%.2f"%mytotal),u"进货-进货订单管理-订单头-完成数量与商品明细不合")
+            comapi.commonfun(caseassert,"%.2f"%pageorder["tptotal"],str("%.2f"%mytotal),u"进货-进货订单管理-订单头-金额与商品明细不合")
 
             #完成数量
-            comapi.commonfun(caseassert,pageorder["toqty"],str("%.1f"%htoqty),u"进货-进货订单管理-订单头-金额与商品明细不合")
+            comapi.commonfun(caseassert,"%.2f"%pageorder["toqty"],str("%.2f"%htoqty),u"进货-进货订单管理-订单头-完成数量与商品明细不合")
 
             #未完成数量
-            comapi.commonfun(caseassert,pageorder["untoqty"],str("%.1f"%huntoqty),u"进货-进货订单管理-订单头-未完成数量与商品明细不合")
+            comapi.commonfun(caseassert,"%.2f"%pageorder["untoqty"],str("%.2f"%huntoqty),u"进货-进货订单管理-订单头-未完成数量与商品明细不合")
 
             #补订数量
             #comapi.commonfun(caseassert,pageorder["business_auditorname"],str("%.4f"%htoqty),u"进货-进货订单管理-订单头-业务审核人验证失败")

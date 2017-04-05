@@ -398,7 +398,7 @@ class base(unittest.TestCase):
 
     #打开数据库
     def mysqlopen(self):
-        conn= MySQLdb.connect(host='172.16.0.96',user='website',passwd='test@2011',db='beefun',port = 4306)
+        conn= MySQLdb.connect(host='172.16.0.96',user='website',passwd='test@2011',db='beefun', charset="utf8",port = 4306)
         cur = conn.cursor()
         return cur
 
