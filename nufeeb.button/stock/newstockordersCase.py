@@ -614,25 +614,25 @@ class newstockordersTest(unittest.TestCase):
                     #单位
                     comapi.commonfun(caseassert,item[2],str(mysqlitem[2]),u"进货-新增进货订单-商品明细-单位和数据库不一致")
                     #数量
-                    comapi.commonfun(caseassert,browser.strconfloat(item[4]),str(mysqlitem[4]),u"进货-新增进货订单-商品明细-数量和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[4]),str(mysqlitem[5]),u"进货-新增进货订单-商品明细-数量和数据库不一致")
                     #折前单价
-                    comapi.commonfun(caseassert,browser.strconfloat(item[5]),str(mysqlitem[5]),u"进货-新增进货订单-商品明细-折前单价和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[5]),str(mysqlitem[6]),u"进货-新增进货订单-商品明细-折前单价和数据库不一致")
                     #折前金额
-                    comapi.commonfun(caseassert,browser.strconfloat(item[6]),str(mysqlitem[6]),u"进货-新增进货订单-商品明细-折前金额和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[6]),str(mysqlitem[7]),u"进货-新增进货订单-商品明细-折前金额和数据库不一致")
                     #折扣
-                    comapi.commonfun(caseassert,browser.strconfloat(item[7]),str(mysqlitem[7]),u"进货-新增进货订单-商品明细-折扣和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[7]),str(mysqlitem[8]),u"进货-新增进货订单-商品明细-折扣和数据库不一致")
                     #单价
-                    comapi.commonfun(caseassert,browser.strconfloat(item[8]),str(mysqlitem[8]),u"进货-新增进货订单-商品明细-单价和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[8]),str(mysqlitem[9]),u"进货-新增进货订单-商品明细-单价和数据库不一致")
                     #金额
-                    comapi.commonfun(caseassert,browser.strconfloat(item[9]),str(mysqlitem[9]),u"进货-新增进货订单-商品明细-金额和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[9]),str(mysqlitem[10]),u"进货-新增进货订单-商品明细-金额和数据库不一致")
                     #税率
-                    comapi.commonfun(caseassert,browser.strconfloat(item[10]),str(mysqlitem[10]),u"进货-新增进货订单-商品明细-税率和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[10]),str(mysqlitem[11]),u"进货-新增进货订单-商品明细-税率和数据库不一致")
                     #税额
-                    comapi.commonfun(caseassert,browser.strconfloat(item[11]),str(mysqlitem[11]),u"进货-新增进货订单-商品明细-税额和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[11]),str(mysqlitem[12]),u"进货-新增进货订单-商品明细-税额和数据库不一致")
                     #税后单价
-                    comapi.commonfun(caseassert,browser.strconfloat(item[12]),str(mysqlitem[12]),u"进货-新增进货订单-商品明细-税后单价和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[12]),str(mysqlitem[13]),u"进货-新增进货订单-商品明细-税后单价和数据库不一致")
                     #税后金额
-                    comapi.commonfun(caseassert,browser.strconfloat(item[13]),str(mysqlitem[13]),u"进货-新增进货订单-商品明细-税后金额和数据库不一致")
+                    comapi.commonfun(caseassert,browser.strconfloat(item[13]),str(mysqlitem[14]),u"进货-新增进货订单-商品明细-税后金额和数据库不一致")
                     #comapi.commonfun(caseassert,browser.strconfloat(item[13]),str(100),u"进货-新增进货订单-商品明细-税后金额和数据库不一致")
                     #备注
                     comapi.commonfun(caseassert,item[3].strip(),str(mysqlitem[14]),u"进货-新增进货订单-商品明细-备注和数据库不一致")
