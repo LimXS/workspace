@@ -29,12 +29,14 @@ class stockmanageTest(unittest.TestCase):
         #页面id
         self.pageurl=browser.xmlRead(self.dom,"manageurl",0)
         self.pageid=browser.getalertid(self.pageurl,self.header)
+
+        self.success=0
         pass
 
 
     def tearDown(self):
         print "test over"
-        self.driver.close()
+        #self.driver.close()
         pass
 
     def teststockmanage(self):
@@ -58,25 +60,36 @@ class stockmanageTest(unittest.TestCase):
         try:
             #刷新
             btnrefresh=commid["basetype"]+self.pageid+browser.xmlRead(self.dom,"btnrefresh",0)
+            browser.delaytime(1)
             browser.findXpath(self.driver,btnrefresh).click()
-
-
 
             #修改
             change=self.pageid+browser.xmlRead(self.dom,"btnModify",0)
+            browser.delaytime(1)
             browser.findId(self.driver,change).click()
+            browser.delaytime(1)
             #browser.openModule2(self.driver,self.modulename,self.moduledetail)
             browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"废弃退出")
             change=self.pageid+browser.xmlRead(self.dom,"btnModify",0)
-            js="$(\"div[class=GridBodyCellText]:contains('001')\").first().attr(\"id\",\"p1\")"
+            js="$(\"div[class=GridBodyCellText]:contains('Butt')\").first().attr(\"id\",\"p1\")"
             browser.delaytime(1)
             browser.excutejs(self.driver,js)
             browser.findId(self.driver,"p1").click()
             browser.findId(self.driver,change).click()
+
             #browser.openModule2(self.driver,self.modulename,self.moduledetail)
+
+            browser.delaytime(1)
+            js="$(\"input[id$=edBType]\").last().attr(\"id\",\"dbid\")"
+            browser.delaytime(1)
+            browser.excutejs(self.driver,js)
+            browser.doubleclick(self.driver,"dbid")
+            #browser.exjscommin(self.driver,"保存单据")
+            browser.exjscommin(self.driver,"选中")
             browser.exjscommin(self.driver,"退出")
             browser.exjscommin(self.driver,"保存单据")
+            browser.delaytime(1)
 
             #审核
             check=self.pageid+browser.xmlRead(self.dom,"check",0)
@@ -503,9 +516,17 @@ class stockmanageTest(unittest.TestCase):
 
     def assertskmanageaftercheck(self):
         u'''进货-进货订单管理-审核之后-数据断言'''
+
+        browser.openModule2(self.driver,self.modulename,self.moduledetail)
+        cookies=browser.cookieSave(self.driver)
+        header3={'cookie':cookies,"Content-Type": "application/json"}
+
         try:
             if self.success==0:
                 loggingClass.addlogmes("info","stockmanageTest-test_assertskmanagebeforecheck-",u"进货-进货订单管理-审核失败，随便选一个已审核的数据")
+
+                #选择审核通过的订单
+                browser.inputid(self.driver,"drpIsAuditFlag","审核通过订单")
 
             else:
                 print
