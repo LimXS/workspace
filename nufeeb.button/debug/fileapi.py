@@ -45,3 +45,5 @@ url4="http://beefun.wsgjp.com/Beefun/Beefun.IniPeriod.ImportKtypeIniNewMessage.a
 response=requests.post(url4,headers=headers)
 print response.text
 '''
+
+
