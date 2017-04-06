@@ -43,6 +43,7 @@ class resalebenefitTest(unittest.TestCase):
             browser.exjscommin(self.driver,"关闭")
             browser.openModule3(self.driver,module,moduledetail,moduledd)
             browser.exjscommin(self.driver,"确定")
+            browser.delaytime(2)
 
             #查看单据
             browser.exjscommin(self.driver,"查看单据")
