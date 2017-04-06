@@ -88,6 +88,7 @@ class stockmanageTest(unittest.TestCase):
             #browser.exjscommin(self.driver,"保存单据")
             browser.exjscommin(self.driver,"选中")
             browser.exjscommin(self.driver,"退出")
+            browser.delaytime(1)
             browser.exjscommin(self.driver,"保存单据")
             browser.delaytime(1)
 

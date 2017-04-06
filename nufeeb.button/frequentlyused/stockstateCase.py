@@ -269,6 +269,7 @@ class stockstateTest(unittest.TestCase):
             browser.findId(self.driver,selcateajust).click()
             browser.accAlert(self.driver,1)
             browser.exjscommin(self.driver,"退出")
+            browser.delaytime(2)
 
             #库存调整单
 
