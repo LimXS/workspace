@@ -131,7 +131,7 @@ suite = unittest.TestSuite()
 
 ##suite.addTest(notedraftCase.notedraftTest("testnoteDraft"))
 #suite.addTest(notecentralCase.notecentralTest("testnoteCentral"))
-suite.addTest(stockstateCase.stockstateTest("teststockState"))
+#suite.addTest(stockstateCase.stockstateTest("teststockState"))
 
 #suite.addTest(iteminfoCase.iteminfoTest("testitemInfo"))
 ##suite.addTest(skumanageCase.skumanageTest("testskuManage"))
