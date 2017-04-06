@@ -521,15 +521,19 @@ class stockmanageTest(unittest.TestCase):
         cookies=browser.cookieSave(self.driver)
         header3={'cookie':cookies,"Content-Type": "application/json"}
 
+        #选择审核通过的订单
+        browser.inputid(self.driver,"drpIsAuditFlag","审核通过订单")
+
         try:
-            if self.success==0:
+            if self.success!=0:
                 loggingClass.addlogmes("info","stockmanageTest-test_assertskmanagebeforecheck-",u"进货-进货订单管理-审核失败，随便选一个已审核的数据")
-
-                #选择审核通过的订单
-                browser.inputid(self.driver,"drpIsAuditFlag","审核通过订单")
-
+                #number=
             else:
+                f=open(r'C:\\workspace\\nufeeb.button\\data\\temp','r')
+                number=str(f.read())
+                f.close()
                 print
+
 
         except:
             print traceback.format_exc()

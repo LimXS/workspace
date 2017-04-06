@@ -1,3 +1,8 @@
 2017-04-05 15:24:41,239  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核失败，随便选一个已审核的数据
 2017-04-05 15:38:29,036  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核失败，随便选一个已审核的数据
 2017-04-05 15:42:28,335  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核失败，随便选一个已审核的数据
+2017-04-05 16:48:46,834  - stockmanageTest-test_assertskmanagebeforecheck- - INFO - 进货-进货订单管理-审核失败，随便选一个已审核的数据
+2017-04-06 09:42:01,823  - newstockordersTest-test_assnskSave-JHD-20170406-001 - INFO - 进货-新增进货订单-商品明细-备注和数据库不一致;page:;mysql:13.6000
+2017-04-06 09:42:01,836  - newstockordersTest-test_assnskSave-JHD-20170406-001 - INFO - 进货-新增进货订单-商品明细-备注和数据库不一致;page:beizhu item2 assert;mysql:54.7400
+2017-04-06 09:46:20,246  - newstockordersTest-test_assnskSave-JHD-20170406-002 - INFO - 进货-新增进货订单-商品明细-备注和数据库不一致;page:;mysql:13.6000
+2017-04-06 09:46:20,246  - newstockordersTest-test_assnskSave-JHD-20170406-002 - INFO - 进货-新增进货订单-商品明细-备注和数据库不一致;page:beizhu item2 assert;mysql:54.7400

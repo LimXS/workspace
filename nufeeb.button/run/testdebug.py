@@ -139,7 +139,7 @@ suite = unittest.TestSuite()
 ##suite.addTest(itemcombineCase.itemcombineTest("testitemCombine"))
 
 ##suite.addTest(newstockordersCase.newstockordersTest("testnewstockorders"))
-suite.addTest(newstockordersCase.newstockordersTest("test_assnskSave"))
+#suite.addTest(newstockordersCase.newstockordersTest("test_assnskSave"))
 #suite.addTest(stockmanageCase.stockmanageTest("teststockmanage"))
 #suite.addTest(stockmanageCase.stockmanageTest("testyskmanagebeforecheckassert"))
 #suite.addTest(stockmanageCase.stockmanageTest("assertskmanageaftercheck"))

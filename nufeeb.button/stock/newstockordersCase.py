@@ -579,7 +579,7 @@ class newstockordersTest(unittest.TestCase):
                 #print orderdatas
                 #数据库商品数据
                 orderitems=browser.getmysqlitems(self.astdic['number'],self.astdic['Summary'])
-                #print orderitems
+                print orderitems
                 #print len(orderitems)
                 comapi=stockcompareapi.stockcompary()
                 caseassert="newstockordersTest-test_assnskSave-"+str(self.astdic['number'])
@@ -635,7 +635,7 @@ class newstockordersTest(unittest.TestCase):
                     comapi.commonfun(caseassert,browser.strconfloat(item[13]),str(mysqlitem[14]),u"进货-新增进货订单-商品明细-税后金额和数据库不一致")
                     #comapi.commonfun(caseassert,browser.strconfloat(item[13]),str(100),u"进货-新增进货订单-商品明细-税后金额和数据库不一致")
                     #备注
-                    comapi.commonfun(caseassert,item[3].strip(),str(mysqlitem[14]),u"进货-新增进货订单-商品明细-备注和数据库不一致")
+                    comapi.commonfun(caseassert,item[3].strip(),str(mysqlitem[15]),u"进货-新增进货订单-商品明细-备注和数据库不一致")
 
 
 
