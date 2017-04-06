@@ -135,7 +135,7 @@ suite = unittest.TestSuite()
 
 #suite.addTest(iteminfoCase.iteminfoTest("testitemInfo"))
 ##suite.addTest(skumanageCase.skumanageTest("testskuManage"))
-##suite.addTest(itempackagemanCase.itempackagemanTest("testitempackageMan"))
+suite.addTest(itempackagemanCase.itempackagemanTest("testitempackageMan"))
 ##suite.addTest(itemcombineCase.itemcombineTest("testitemCombine"))
 
 ##suite.addTest(newstockordersCase.newstockordersTest("testnewstockorders"))
