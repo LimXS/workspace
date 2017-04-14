@@ -122,6 +122,7 @@ class browser(base):
     #获取动态元素
     def getdtnamicElement(self,driver,str1,str2,btn,flag,begin,end):
         try:
+            a=0
             for a in range(begin,end):                      
                 base.findXpath(self,driver,btn).click()
                 #driver.find_element_by_xpath("html/body/table[3]/tbody/tr[2]/td[4]/table/tbody/tr/td[2]/div/div[2]/div[2]/div/table[2]/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td[2]/table/tbody/tr/td[2]/div/div").click()
@@ -145,6 +146,7 @@ class browser(base):
     #获取当前数据一共有几列        
     def getlines(self,driver,str1,str2):  
         try:
+            n=0
             for n in range(1,20):
                 orderid=str1+str(n)+str2
                 if self.elementisexist(driver,orderid) ==False:

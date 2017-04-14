@@ -117,7 +117,6 @@ class base(unittest.TestCase):
         else:
             alert.dismiss()
 
-            
     #时间处理        
     def timeOperate(self,begin,n):
         try:

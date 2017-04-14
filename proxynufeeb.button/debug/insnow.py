@@ -31,7 +31,7 @@ browser=browserClass.browser()
 #coding: utf-8
 import multiprocessing
 import time
-
+'''
 def newcookie():
     #central note
     while 1:
@@ -95,7 +95,7 @@ def newcookie():
             print "取cookie失败 重新取"
             pass
 
-
+'''
 
 
 def createorder(num,becode):
